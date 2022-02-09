@@ -1,7 +1,7 @@
 /* 
 	There are some code which need to fix.
 	Please restructure the coding between //TODO, //TO FIX START and //TO FIX END.
-	Make the finally result that match to the expected outputs.
+	Make the final result that match to the expected outputs.
 */
 
 function countDown() {
@@ -14,11 +14,12 @@ function countDown() {
   }
 }
 function saytHelloWorld(obj) {
+	// Do not change code lines in this function.
+	// TODO
   printWorld();
   console.log(obj.greeting);
 }
 function printWorld() {
-  // TODO print 'World'
   console.log("World");
 }
 countDown();

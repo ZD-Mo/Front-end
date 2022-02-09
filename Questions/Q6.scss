@@ -1,0 +1,24 @@
+
+/*
+	We have two graph which are square and another square inside it.
+	The following html:
+	<div className='container'>
+		<div className='target' />
+	</div>
+
+	You can use any css way to make the target div to center both horizontally and vertically.
+*/
+
+.container {
+	width: 600px;
+	height: 400px;
+	border: #000 solid 2px;
+
+	.target {
+		width: 300px;
+		height: 200px;
+		border: #ff0000 solid 1px;
+	}
+}
+
+

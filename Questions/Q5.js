@@ -7,8 +7,8 @@
 const getArea = (width, height) => width * height
 
 
-const curryingGetArea
+const curryingGetArea = /*your code here*/
 
 
 console.log(getArea(3, 4))	// output: 12
-console.log(curryingGetArea       )	// output: 12
+console.log(curryingGetArea/*your code here*/)	// output: 12

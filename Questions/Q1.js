@@ -20,7 +20,9 @@ function saytHelloWorld(obj) {
   console.log(obj.greeting)
 }
 function printWorld() {
-  console.log('World')
+  setTimeout(function () {
+    console.log('World')
+  }, 0)
 }
 countDown()
 saytHelloWorld({ greeting: 'Hello' })

@@ -5,25 +5,25 @@
 */
 
 function countDown() {
-  for (var i = 10; i > 0; i--) {
+  for (let i = 10; i >= 1; i--) {
     // TO FIX START
     setTimeout(function count() {
-      console.log(i);
-    }, 1000);
-		// TO FIX END
+      console.log(i)
+    }, 1000)
+    // TO FIX END
   }
 }
 function saytHelloWorld(obj) {
-	// Do not change code lines in this function.
-	// TODO
-  printWorld();
-  console.log(obj.greeting);
+  // Do not change code lines in this function.
+  // TODO
+  printWorld()
+  console.log(obj.greeting)
 }
 function printWorld() {
-  console.log("World");
+  console.log('World')
 }
-countDown();
-saytHelloWorld({ greeting: "Hello" });
+countDown()
+saytHelloWorld({ greeting: 'Hello' })
 
 /* expect result */
 /*

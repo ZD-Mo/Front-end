@@ -8,19 +8,15 @@
 	Please implement the function that names fibonacci.
  */
 
-	function fibonacci(num) {
-		// TODO implement the fibonacci logic
+function fibonacci(num) {
+  // TODO implement the fibonacci logic
+  const arr = [0, 1]
+  for (let i = 2; i <= num; i++) {
+    arr[i] = arr[i - 1] + arr[i - 2]
+  }
+  return arr[num]
+}
 
-
-
-
-
-
-
-
-	}
-
-
-	fibonacci(1) // output: 1,
-	fibonacci(4) // output: 3,
-	fibonacci(6) // output: 8
+console.log(fibonacci(1)) // output: 1,
+console.log(fibonacci(4)) // output: 3,
+console.log(fibonacci(6)) // output: 8
